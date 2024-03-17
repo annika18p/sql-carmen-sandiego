@@ -1,3 +1,15 @@
+# Enter psql
+psql
+
+# Create database
+CREATE DATABASE carmen;
+
+# Connect to carmen
+\c carmen
+\i world.SQL
+
+\d+ <table_name>
+
 -- Clue #1: We recently got word that someone fitting Carmen Sandiego's description has been
 -- traveling through Southern Europe. She's most likely traveling someplace where she won't be noticed,
 -- so find the least populated country in Southern Europe, and we'll start looking for her there.
